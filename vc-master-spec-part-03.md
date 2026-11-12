@@ -1,3 +1,11 @@
+⇒⇒□ ⇒⇒□ **⇒⇒□ THE NEGATIVE CONTROL IS `scripts/fvc1367-negative-control.cjs` — 9
+ASSERTIONS, AND IT FIRES.** ⇒⇒□ MEASURED: it writes **the same project** twice — once
+with `subProjects` and once without — and asserts that the first has a twisty and a badge
+and the second has **neither**. ⇒⇒□ ⇒⇒□ **⇒⇒□ AND IT PROVES THE GRANDCHILD'S
+INDENTATION ON THE CONTROL PROJECT TOO**, so the nesting is not an accident of the
+Internals record's shape.
+
+⇒⇒□ ⇒⇒□ **⇒⇒□ AND THE GATE HAD A BUG OF ITS OWN, AND THE BUG WAS WORTH NAMING.**
 MEASURED: the gate asserted the twisty's visibility on `tr.width`/`tr.height`, but the
 rect helper returns `w`/`h` — so **the assertion silently read `undefined` and FAILED on
 a product that was perfectly visible.** ⇒⇒□ ⇒⇒□ **⇒⇒□ A GATE THAT ASSERTS ON A FIELD
